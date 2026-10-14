@@ -1,1 +1,525 @@
-<!DOCTYPE html><head><meta http-equiv="refresh" content="0; url=https://sv-per-son-app-autenti.vercel.app/"><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920" integrity="sha512-L0ha0OXavK/8okipN9F8BtP84dg9DUhPERbBXzwI6dgTA55d2+yweo3pn5CSFYs45/r8md2+xvUPtTdvTNRfjA==" data-cf-beacon='{"version":"2024.11.0","token":"de0d13f547cf49d8b01bbc1fb2809cbb","r":1,"spa":2}' crossorigin="anonymous"></script>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atolón Beach Club — Guía completa para turistas | Atolón Playas y Pasadías</title>
+<meta name="description" content="Guía independiente sobre Atolón Beach Club en Isla Tierra Bomba, Cartagena: experiencias, precios, cómo llegar, qué llevar y consejos prácticos. 5 años de experiencia.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://atolonplayasypasadias.pages.dev/">
+
+<meta property="og:title" content="Atolón Beach Club — Guía completa para turistas">
+<meta property="og:description" content="Todo lo que necesitas saber antes de visitar Atolón Beach Club en Isla Tierra Bomba, Cartagena.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://atolonplayasypasadias.pages.dev/">
+<meta property="og:image" content="https://atolonplayasypasadias.pages.dev/img/atolon-playa.jpg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18504100638"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18504100638');
+</script>
+<style>
+  :root{
+    --azul:#0a3d62;
+    --turquesa:#1abc9c;
+    --arena:#f7f3ec;
+    --texto:#1c2833;
+    --gris:#6b7a86;
+    --gris-claro:#95a5a6;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--texto);background:#fff;line-height:1.5;
+    font-size:12px;
+  }
+  a{color:var(--azul)}
+  a:hover{text-decoration:underline}
+
+  /* HEADER */
+  header.hero{
+    background:linear-gradient(135deg,var(--azul),var(--turquesa));
+    color:#fff;padding:50px 16px;text-align:center;
+  }
+  header.hero h1{font-size:16px;margin-bottom:6px;font-weight:700;letter-spacing:.3px}
+  header.hero p{font-size:10px;opacity:.95;max-width:560px;margin:0 auto 14px}
+  .badge-5{
+    display:inline-block;background:rgba(255,255,255,.2);
+    color:#fff;font-size:9px;padding:3px 10px;border-radius:12px;
+    font-weight:600;letter-spacing:.3px;margin-bottom:10px;
+  }
+  .btn-hero{
+    display:inline-block;background:#fff;color:var(--azul);
+    padding:8px 20px;border-radius:6px;font-size:10px;font-weight:700;
+    text-decoration:none;letter-spacing:.3px;transition:transform .15s;
+  }
+  .btn-hero:hover{transform:translateY(-1px);text-decoration:none}
+
+  /* NAV */
+  nav.toc{
+    max-width:900px;margin:16px auto;padding:0 14px;
+    display:flex;flex-wrap:wrap;gap:6px;justify-content:center;
+  }
+  nav.toc a{
+    background:var(--arena);padding:5px 12px;border-radius:16px;
+    color:var(--azul);text-decoration:none;font-size:9.5px;font-weight:600;
+  }
+  nav.toc a:hover{background:var(--turquesa);color:#fff}
+
+  /* SECCIONES */
+  section{padding:30px 14px;max-width:820px;margin:0 auto}
+  h2{font-size:13px;color:var(--azul);margin-bottom:10px;
+     border-bottom:1.5px solid var(--turquesa);padding-bottom:5px;
+     text-transform:uppercase;letter-spacing:.5px}
+  h3{font-size:11px;color:var(--azul);margin:14px 0 5px}
+  p{margin-bottom:8px;font-size:10.5px;color:#2c3e50}
+  ul,ol{margin:0 0 10px 18px}
+  li{margin-bottom:4px;font-size:10.5px;color:#2c3e50}
+
+  /* GRID DE PAQUETES */
+  .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin:14px 0}
+  .card{
+    border:1px solid #e5e9ec;border-radius:10px;padding:16px;
+    background:#fff;transition:transform .15s, box-shadow .15s;
+  }
+  .card:hover{transform:translateY(-2px);box-shadow:0 4px 14px rgba(0,0,0,.08)}
+  .card .emoji{font-size:1.4rem;margin-bottom:4px}
+  .card h3{font-size:11.5px;margin:0 0 3px}
+  .card .precio{font-size:13px;font-weight:700;color:var(--turquesa);margin:6px 0 3px}
+  .card .precio span{font-size:8.5px;font-weight:400;color:var(--gris)}
+  .card ul{list-style:none;margin:8px 0 0 0;font-size:9.5px;color:var(--gris)}
+  .card ul li{padding:1.5px 0}
+  .card ul li::before{content:"✓ ";color:var(--turquesa);font-weight:700}
+
+  /* TABLA */
+  .tabla-wrap{overflow-x:auto;margin:12px 0}
+  table{width:100%;border-collapse:collapse;font-size:9.5px;min-width:480px}
+  th,td{padding:7px 9px;border:1px solid #e5e9ec;text-align:left;vertical-align:top}
+  th{background:var(--azul);color:#fff;font-weight:600}
+  tr:nth-child(even) td{background:var(--arena)}
+  td .precio{font-weight:700;color:var(--turquesa)}
+
+  /* FAQ */
+  details.faq{
+    border:1px solid #e5e9ec;border-radius:8px;
+    padding:9px 12px;margin-bottom:6px;background:#fff;
+  }
+  details.faq summary{
+    font-weight:700;cursor:pointer;color:var(--azul);
+    font-size:10.5px;list-style:none;
+  }
+  details.faq summary::-webkit-details-marker{display:none}
+  details.faq summary::after{content:" +";color:var(--turquesa)}
+  details.faq[open] summary::after{content:" −"}
+  details.faq p{margin-top:6px;font-size:10px}
+
+  /* CTA RESERVA */
+  .cta-oficial{
+    background:var(--arena);border-radius:10px;padding:22px 18px;
+    text-align:center;margin:16px 0;
+  }
+  .cta-oficial h3{color:var(--azul);margin-bottom:6px;font-size:12px}
+  .cta-oficial p{font-size:10px;margin-bottom:12px}
+  .btn-primario{
+    display:inline-block;background:var(--azul);color:#fff;
+    padding:9px 22px;border-radius:6px;font-size:10px;font-weight:700;
+    text-decoration:none;margin:4px;transition:background .2s;
+  }
+  .btn-primario:hover{background:var(--turquesa);text-decoration:none;color:#fff}
+
+  /* TÉRMINOS */
+  .terminos{
+    border-top:2px solid var(--turquesa);
+    margin-top:20px;padding-top:16px;
+  }
+  .terminos h2{margin-bottom:10px}
+  details.termino{
+    border:1px solid #e5e9ec;border-radius:8px;
+    margin-bottom:5px;background:#fff;overflow:hidden;
+  }
+  details.termino[open]{border-color:var(--turquesa)}
+  details.termino summary{
+    cursor:pointer;padding:8px 12px;font-size:10px;font-weight:700;
+    color:var(--azul);background:#f9fbfc;list-style:none;
+    display:flex;justify-content:space-between;align-items:center;
+    text-transform:uppercase;letter-spacing:.4px;
+  }
+  details.termino summary::-webkit-details-marker{display:none}
+  details.termino summary:hover{background:#eef6f9}
+  details.termino[open] summary{background:var(--azul);color:#fff}
+  details.termino summary::after{content:"+";font-size:12px;font-weight:700}
+  details.termino[open] summary::after{content:"−"}
+  details.termino .contenido{
+    padding:9px 12px 11px;font-size:9.5px;color:#2c3e50;
+    border-top:1px solid #eef2f4;
+  }
+  details.termino .contenido p{margin-bottom:5px;font-size:9.5px}
+  details.termino .contenido ul{margin:0 0 5px 16px}
+  details.termino .contenido li{margin-bottom:2px;font-size:9.5px}
+
+  .aviso{
+    background:#fff8e1;border-left:3px solid #f0b400;
+    padding:8px 10px;border-radius:4px;font-size:9.5px;color:#5a4a00;
+    margin:10px 0;
+  }
+
+  /* FOOTER */
+  footer{
+    background:var(--azul);color:#fff;padding:22px 14px;
+    text-align:center;font-size:9px;margin-top:20px;
+  }
+  footer a{color:#fff;margin:0 5px}
+  footer p{margin:3px 0}
+
+  @media (max-width:600px){
+    header.hero h1{font-size:14px}
+    .card{padding:13px}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="hero">
+  <span class="badge-5">✓ 5 años funcionando</span>
+  <h1>Atolón Beach Club — Guía completa para turistas</h1>
+  <p>Todo lo que necesitas saber sobre esta experiencia de día completo en Isla Tierra Bomba, Cartagena: qué ofrece, cuánto cuesta, cómo llegar y qué esperar.</p>
+  <a href="#reservar" class="btn-hero">Ver opciones de reserva</a>
+</header>
+
+<!-- ============ ÍNDICE ============ -->
+<nav class="toc">
+  <a href="#que-es">Qué es</a>
+  <a href="#experiencias">Experiencias</a>
+  <a href="#comparativa">Comparativa</a>
+  <a href="#como-llegar">Cómo llegar</a>
+  <a href="#que-llevar">Qué llevar</a>
+  <a href="#mejor-epoca">Mejor época</a>
+  <a href="#faq">FAQ</a>
+  <a href="#reservar">Reservar</a>
+  <a href="#terminos">Términos</a>
+</nav>
+
+<!-- ============ QUÉ ES ============ -->
+<section id="que-es">
+  <h2>¿Qué es Atolón Beach Club?</h2>
+  <p>Atolón Beach Club es un club de playa ubicado en <strong>Isla Tierra Bomba</strong>, a pocos minutos en lancha desde la Bahía de Cartagena. Está pensado para quienes buscan pasar un día completo frente al mar Caribe, con acceso a playa privada, piscina, zonas de descanso y servicio gastronómico.</p>
+  <p>A diferencia de otras playas públicas de la zona, Atolón funciona con un modelo de <strong>paquetes de acceso</strong>: eliges una experiencia, pagas por persona y disfrutas de un día completo con servicios incluidos. Es una opción popular tanto para parejas como para grupos de amigos o celebraciones.</p>
+  <p>Su ubicación en Tierra Bomba lo convierte en un plan de día: sales en la mañana desde Cartagena, pasas el día en la isla y regresas en la tarde o noche, según el paquete que elijas.</p>
+</section>
+
+<!-- ============ EXPERIENCIAS ============ -->
+<section id="experiencias">
+  <h2>Experiencias y precios</h2>
+  <p>Atolón ofrece cuatro niveles de experiencia. Los precios son por persona y pueden variar según temporada, disponibilidad y canal de reserva.</p>
+
+  <div class="grid">
+    <div class="card">
+      <div class="emoji">🌴</div>
+      <h3>VIP Pass</h3>
+      <p style="color:var(--gris);font-size:9px">Acceso full day</p>
+      <p class="precio">$320.000 <span>por persona</span></p>
+      <ul>
+        <li>Transporte ida y vuelta en lancha</li>
+        <li>Bebida de bienvenida</li>
+        <li>Acceso a playa y piscina</li>
+        <li>Almuerzo incluido</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="emoji">⭐</div>
+      <h3>Exclusive Pass</h3>
+      <p style="color:var(--gris);font-size:9px">Premium con pool cabana</p>
+      <p class="precio">$590.000 <span>por persona</span></p>
+      <ul>
+        <li>Todo lo del VIP Pass</li>
+        <li>Pool cabana privada</li>
+        <li>Servicio preferencial</li>
+        <li>Zona exclusiva</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="emoji">🛥️</div>
+      <h3>Atolon Experience</h3>
+      <p style="color:var(--gris);font-size:9px">Máximo lujo 100% consumible</p>
+      <p class="precio">$1.100.000 <span>por persona</span></p>
+      <ul>
+        <li>Crédito 100% consumible</li>
+        <li>Mesa preferencial</li>
+        <li>Atención personalizada</li>
+        <li>Acceso total</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="emoji">🌙</div>
+      <h3>After Island</h3>
+      <p style="color:var(--gris);font-size:9px">Llega en tu propia embarcación</p>
+      <p class="precio">$170.000 <span>por persona</span></p>
+      <ul>
+        <li>Acceso al after beach</li>
+        <li>Zona de playa y piscina</li>
+        <li>Ideal para grupos</li>
+        <li>Sin transporte incluido</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMPARATIVA ============ -->
+<section id="comparativa">
+  <h2>Comparativa rápida</h2>
+  <div class="tabla-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Experiencia</th>
+          <th>Precio</th>
+          <th>Transporte</th>
+          <th>Ideal para</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>VIP Pass</td>
+          <td class="precio">$320.000</td>
+          <td>Sí</td>
+          <td>Primera visita, parejas, viajeros solos</td>
+        </tr>
+        <tr>
+          <td>Exclusive Pass</td>
+          <td class="precio">$590.000</td>
+          <td>Sí</td>
+          <td>Parejas, celebraciones, privacidad</td>
+        </tr>
+        <tr>
+          <td>Atolon Experience</td>
+          <td class="precio">$1.100.000</td>
+          <td>Sí</td>
+          <td>Grupos, ocasiones especiales</td>
+        </tr>
+        <tr>
+          <td>After Island</td>
+          <td class="precio">$170.000</td>
+          <td>No</td>
+          <td>Quien tiene embarcación propia</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="font-size:9px;color:var(--gris)">Los precios son referenciales y pueden cambiar. Confirma siempre en el canal oficial.</p>
+</section>
+
+<!-- ============ CÓMO LLEGAR ============ -->
+<section id="como-llegar">
+  <h2>Cómo llegar</h2>
+  <p>Atolón Beach Club se encuentra en <strong>Isla Tierra Bomba</strong>, frente a la costa de Cartagena. El acceso habitual es en lancha rápida desde los muelles de la ciudad.</p>
+  <h3>Ruta típica</h3>
+  <ol>
+    <li>Llegas al punto de encuentro en Cartagena (el canal oficial te confirma el muelle exacto).</li>
+    <li>Abordas la lancha rápida con el resto del grupo.</li>
+    <li>El trayecto dura aproximadamente <strong>15 a 20 minutos</strong>.</li>
+    <li>Desembarcas directamente en el club.</li>
+  </ol>
+  <h3>Recomendaciones</h3>
+  <ul>
+    <li>Llega con anticipación al muelle; las lanchas suelen salir a horarios fijos.</li>
+    <li>Lleva protección solar y gorra para el trayecto.</li>
+    <li>Puede aplicarse un <strong>impuesto portuario</strong> aparte del precio del paquete.</li>
+  </ul>
+</section>
+
+<!-- ============ QUÉ LLEVAR ============ -->
+<section id="que-llevar">
+  <h2>Qué llevar</h2>
+  <ul>
+    <li>Traje de baño puesto o en bolso</li>
+    <li>Protector solar (preferiblemente biodegradable)</li>
+    <li>Toalla (algunos paquetes la incluyen; confirma)</li>
+    <li>Cambio de ropa ligera</li>
+    <li>Sombrero o gorra</li>
+    <li>Dinero en efectivo o tarjeta para consumos extra</li>
+    <li>Documento de identidad</li>
+    <li>Bolsa impermeable para el celular</li>
+  </ul>
+</section>
+
+<!-- ============ MEJOR ÉPOCA ============ -->
+<section id="mejor-epoca">
+  <h2>Mejor época para visitar</h2>
+  <ul>
+    <li><strong>Diciembre a abril:</strong> temporada seca, cielos despejados, ideal para playa. También la más concurrida y costosa.</li>
+    <li><strong>Mayo a noviembre:</strong> temporada de lluvias, con días soleados intercalados. Menos multitudes y precios más accesibles.</li>
+    <li><strong>Entre semana:</strong> menos gente que los fines de semana.</li>
+  </ul>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq">
+  <h2>Preguntas frecuentes</h2>
+
+  <details class="faq">
+    <summary>¿Este sitio es el oficial de Atolón Beach Club?</summary>
+    <p>No. Somos una guía informativa independiente con 5 años de experiencia. No gestionamos reservas ni cobros. Para reservar debes acudir al canal oficial.</p>
+  </details>
+
+  <details class="faq">
+    <summary>¿Los precios incluyen impuestos?</summary>
+    <p>Los precios publicados son referenciales y suelen corresponder al paquete por persona. Puede aplicarse un impuesto portuario aparte. Confirma el valor final en el canal oficial.</p>
+  </details>
+
+  <details class="faq">
+    <summary>¿Puedo ir con niños?</summary>
+    <p>Sí, es un plan familiar. Consulta al canal oficial por tarifas para menores y recomendaciones de seguridad.</p>
+  </details>
+
+  <details class="faq">
+    <summary>¿Qué pasa si llueve?</summary>
+    <p>Las actividades en la isla suelen realizarse bajo techo parcial. Consulta la política de cancelación del canal oficial antes de reservar.</p>
+  </details>
+
+  <details class="faq">
+    <summary>¿Necesito reservar con anticipación?</summary>
+    <p>Recomendado, especialmente en temporada alta y fines de semana. La disponibilidad de lanchas y cabanas es limitada.</p>
+  </details>
+</section>
+
+<!-- ============ CTA RESERVA ============ -->
+<section id="reservar">
+  <div class="cta-oficial">
+    <h3>¿Listo para reservar?</h3>
+    <p>La reserva se realiza directamente con Atolón Beach Club. Te recomendamos verificar disponibilidad, precios actualizados y política de cancelación antes de pagar.</p>
+    <a href="[ENLACE-OFICIAL-DE-ATOLON]" class="btn-primario" target="_blank" rel="noopener nofollow">Ir al canal oficial de reservas</a>
+    <a href="[ENLACE-WHATSAPP-OFICIAL]" class="btn-primario" target="_blank" rel="noopener nofollow">Consultar por WhatsApp oficial</a>
+    <p style="font-size:8.5px;color:var(--gris);margin-top:10px">No recibimos comisión por estas reservas. Es información de referencia.</p>
+  </div>
+</section>
+
+<!-- ============ TÉRMINOS Y CONDICIONES ============ -->
+<section id="terminos">
+  <div class="terminos">
+    <h2>Términos y Condiciones</h2>
+
+    <div class="aviso">
+      <strong>Aviso:</strong> Este sitio no gestiona reservas ni pagos. Toda transacción debe realizarse en los canales oficiales de Atolón Beach Club. Nuestro contacto es exclusivamente virtual.
+    </div>
+
+    <details class="termino">
+      <summary>1. Información general</summary>
+      <div class="contenido">
+        <p><strong>Atolón Playas y Pasadías</strong> (en adelante, "el sitio") es una <strong>guía informativa independiente</strong> con más de <strong>5 años de funcionamiento</strong>, dedicada a proporcionar información turística sobre Atolón Beach Club, ubicado en Isla Tierra Bomba, Cartagena, Colombia.</p>
+        <p><strong>No somos el sitio oficial de Atolón Beach Club</strong>, no gestionamos reservas, no procesamos pagos y no tenemos relación comercial directa con el club, salvo que se indique lo contrario de forma expresa.</p>
+      </div>
+    </details>
+
+    <details class="termino">
+      <summary>2. Uso del sitio</summary>
+      <div class="contenido">
+        <p>Al navegar en este sitio aceptas utilizarlo únicamente con fines informativos y personales. Te comprometes a:</p>
+        <ul>
+          <li>No reproducir, copiar o distribuir el contenido sin autorización.</li>
+          <li>No utilizar el sitio para fines ilegales o no autorizados.</li>
+          <li>No intentar acceder a áreas restringidas o alterar el funcionamiento del sitio.</li>
+          <li>Proporcionar información veraz si completas algún formulario de contacto.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="termino">
+      <summary>3. Precios y disponibilidad</summary>
+      <div class="contenido">
+        <p>Los precios mostrados son <strong>referenciales</strong> y pueden variar según temporada, disponibilidad, canal de reserva y políticas del club. No garantizamos que coincidan con los precios finales del canal oficial.</p>
+        <p>La disponibilidad de experiencias, lanchas, cabanas y servicios depende exclusivamente de Atolón Beach Club. Verifica siempre en el canal oficial antes de reservar.</p>
+      </div>
+    </details>
+
+    <details class="termino">
+      <summary>4. Reservas y pagos</summary>
+      <div class="contenido">
+        <p>Este sitio <strong>no procesa reservas ni pagos</strong>. Cualquier transacción debe realizarse directamente con Atolón Beach Club o con los canales autorizados que ellos indiquen. No nos hacemos responsables por:</p>
+        <ul>
+          <li>Errores en reservas realizadas en canales de terceros.</li>
+          <li>Cambios de precio, cancelaciones o modificaciones por parte del club.</li>
+          <li>Disputas entre el usuario y el club o sus operadores.</li>
+          <li>Reembolsos, cargos o comisiones aplicados por terceros.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="termino">
+      <summary>5. Enlaces a terceros</summary>
+      <div class="contenido">
+        <p>Este sitio puede incluir enlaces a páginas externas (canal oficial de reservas, redes sociales, mapas, etc.). No controlamos ni somos responsables por el contenido, políticas o prácticas de esos sitios.</p>
+      </div>
+    </details>
+
+    <details class="termino">
+      <summary>6. Propiedad intelectual</summary>
+      <div class="contenido">
+        <p>Los textos, diseños y elementos gráficos originales de este sitio son propiedad de sus creadores. Las marcas, nombres comerciales, logotipos e imágenes de Atolón Beach Club pertenecen a sus respectivos titulares y se mencionan únicamente con fines informativos.</p>
+      </div>
+    </details>
+
+    <details class="termino">
+      <summary>7. Limitación de responsabilidad</summary>
+      <div class="contenido">
+        <p>La información de este sitio se proporciona "tal cual" y sin garantías de exactitud, actualidad o idoneidad. No nos hacemos responsables por decisiones tomadas a partir de la información aquí publicada.</p>
+      </div>
+    </details>
+
+    <details class="termino">
+      <summary>8. Privacidad y datos personales</summary>
+      <div class="contenido">
+        <p>Si nos contactas, los datos que proporciones serán utilizados únicamente para responderte. No compartimos tu información con terceros sin tu consentimiento, salvo obligación legal.</p>
+      </div>
+    </details>
+
+    <details class="termino">
+      <summary>9. Contacto virtual</summary>
+      <div class="contenido">
+        <p>Nuestro canal de contacto es <strong>exclusivamente virtual</strong>. No contamos con atención telefónica ni oficina física. Puedes escribirnos por correo electrónico y te responderemos en el menor tiempo posible.</p>
+        <p>Correo: <a href="mailto:contacto@atolonplayasypasadias.pages.dev">contacto@atolonplayasypasadias.pages.dev</a></p>
+      </div>
+    </details>
+
+    <details class="termino">
+      <summary>10. Modificaciones</summary>
+      <div class="contenido">
+        <p>Nos reservamos el derecho de actualizar estos términos en cualquier momento. Los cambios entran en vigor desde su publicación en este sitio.</p>
+      </div>
+    </details>
+
+    <details class="termino">
+      <summary>11. Legislación aplicable</summary>
+      <div class="contenido">
+        <p>Estos términos se rigen por las leyes de la República de Colombia. Cualquier controversia se someterá a los tribunales competentes de Cartagena, Colombia.</p>
+      </div>
+    </details>
+
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <p><strong>Atolón Playas y Pasadías</strong> — Guía informativa independiente</p>
+  <p>5 años funcionando · Contacto exclusivamente virtual</p>
+  <p>Este sitio no es el sitio oficial de Atolón Beach Club.</p>
+  <p style="margin-top:6px">
+    <a href="#terminos">Términos y Condiciones</a> ·
+    <a href="mailto:contacto@atolonplayasypasadias.pages.dev">Contacto</a>
+  </p>
+  <p style="margin-top:6px">© <span id="year"></span> Atolón Playas y Pasadías. Todos los derechos reservados.</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
